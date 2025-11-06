@@ -40,7 +40,7 @@ A full-stack e-commerce shopping cart application built for Vibe Commerce screen
 ### Installation & Setup
 
 #### 1. Clone the Repository
-bash
+  bash
 git clone <your-repository-url>
 cd vibe-commerce
 
@@ -50,27 +50,21 @@ cd vibe-commerce
 bash
 # Navigate to backend directory
 cd backend
-
 # Install dependencies
 npm install
-
 # Start the backend server
 npm run dev
 Backend running on: http://localhost:5000
 
 3. Frontend Setup
-
 bash
 # Open new terminal and navigate to frontend directory
 cd frontend
-
 # Install dependencies
 npm install
-
 # Start the React application
 npm start
 Frontend running on: http://localhost:3000
-
 # API Endpoints
 
 Method Endpoint Description
@@ -84,16 +78,16 @@ POST /api/checkout Process checkout {name, email, cartItems}
 
 vibe-commerce/  
 ├── backend/  
-│   ├── server.js            # Express server & APIs
-│   ├── package.json         # Backend dependencies
-│   └── .gitignore           # Backend ignore rules
-├── frontend/  
-│   ├── src/  
-│   │   └── App.js           # Main React component
-│   ├── public/  
-│   ├── package.json         # Frontend dependencies
-│   └── .gitignore           # Frontend ignore rules
-└── README.md                # Project documentation
+│   ├── server.js              # Express server & APIs  
+│   ├── package.json           # Backend dependencies  
+│   └── .gitignore             # Backend ignore rules  
+├── frontend/    
+│   ├── src/    
+│   │   └── App.js             # Main React component  
+│   ├── public/    
+│   ├── package.json           # Frontend dependencies  
+│   └── .gitignore             # Frontend ignore rules  
+└── README.md                  # Project documentation  
 
 # Backend Requirements
 
