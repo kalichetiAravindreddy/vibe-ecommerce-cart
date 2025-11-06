@@ -5,10 +5,10 @@ A full-stack e-commerce shopping cart application built for Vibe Commerce screen
 
 # Screenshots
 
-[product-page](./screenshots/products-page.png)
-[shopping cart](./screenshots/cart-page.png)
-[checkout form](./screenshots/checkout-form.png)
-[order receipt](./screenshots/recipt-modal.png)
+[product-page](./screenshots/products-page.png)  
+[shopping cart](./screenshots/cart-page.png)  
+[checkout form](./screenshots/checkout-form.png)  
+[order receipt](./screenshots/recipt-modal.png)  
 
  ## Demo Video
 [📹 Click here to watch the 2-minute demo video](https://www.loom.com/share/3e5b7c4b25ec4fb89671dcde3266e179)
@@ -80,20 +80,20 @@ DELETE /api/cart/:id Remove item from cart
 GET /api/cart Get cart items with total
 POST /api/checkout Process checkout {name, email, cartItems}
 
-# Project Structure
+# Project Structure  
 
-vibe-commerce/
-├── backend/
-│   ├── server.js          # Express server & APIs
-│   ├── package.json       # Backend dependencies
-│   └── .gitignore         # Backend ignore rules
-├── frontend/
-│   ├── src/
-│   │   └── App.js         # Main React component
-│   ├── public/
-│   ├── package.json       # Frontend dependencies
-│   └── .gitignore         # Frontend ignore rules
-└── README.md              # Project documentation
+vibe-commerce/  
+├── backend/  
+│   ├── server.js            # Express server & APIs
+│   ├── package.json         # Backend dependencies
+│   └── .gitignore           # Backend ignore rules
+├── frontend/  
+│   ├── src/  
+│   │   └── App.js           # Main React component
+│   ├── public/  
+│   ├── package.json         # Frontend dependencies
+│   └── .gitignore           # Frontend ignore rules
+└── README.md                # Project documentation
 
 # Backend Requirements
 
