@@ -37,11 +37,6 @@ A full-stack e-commerce shopping cart application built for Vibe Commerce screen
 - Git for version control
 
 # Installation & Setup
-
-# Clone the Repository
-git clone <your-repository-url>
-cd vibe-commerce
-
 # Backend Setup
 # Navigate to backend directory
 cd backend
