@@ -1,25 +1,24 @@
 # Vibe Commerce - Shopping Cart App
 
-## Overview
+# Overview
 A full-stack e-commerce shopping cart application built for Vibe Commerce screening. Handles add/remove items, calculate totals, and mock checkout process without real payments.
 
 # Screenshots
-
 [product-page](./screenshots/products-page.png)  
 [shopping cart](./screenshots/cart-page.png)  
 [checkout form](./screenshots/checkout-form.png)  
 [order receipt](./screenshots/recipt-modal.png)  
 
- ## Demo Video
-[📹 Click here to watch the 2-minute demo video](https://www.loom.com/share/3e5b7c4b25ec4fb89671dcde3266e179)
+ # Demo Video
+[Click here to watch the 2-minute demo video](https://www.loom.com/share/3e5b7c4b25ec4fb89671dcde3266e179)
 
-### 🎯 What the demo shows:
+# What the demo shows:
 - **0-30s**: Products page - Browse items and add to cart
 - **30-60s**: Shopping cart - View items, quantities, and total calculation  
 - **60-90s**: Checkout process - Fill customer details and submit order
 - **90-120s**: Order confirmation - Receipt with order details and mock transaction
 
-### ✨ Features demonstrated:
+#  Features demonstrated:
 -  Full product catalog display
 -  Add/remove items from cart
 -  Real-time total calculation
@@ -27,27 +26,23 @@ A full-stack e-commerce shopping cart application built for Vibe Commerce screen
 -  Order receipt generation
 
 
-## 🛠️ Tech Stack
+# Tech Stack
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: SQLite
 - **APIs**: RESTful APIs
 
-### Prerequisites
+# Prerequisites
 - Node.js installed on your system
 - Git for version control
 
-### Installation & Setup
+# Installation & Setup
 
-#### 1. Clone the Repository
-  bash
+# Clone the Repository
 git clone <your-repository-url>
 cd vibe-commerce
 
-
-2. Backend Setup
-
-bash
+# Backend Setup
 # Navigate to backend directory
 cd backend
 # Install dependencies
@@ -56,8 +51,7 @@ npm install
 npm run dev
 Backend running on: http://localhost:5000
 
-3. Frontend Setup
-bash
+# Frontend Setup
 # Open new terminal and navigate to frontend directory
 cd frontend
 # Install dependencies
@@ -116,22 +110,15 @@ vibe-commerce/
 # Development
 
 Running in Development Mode
-
-```bash
 # Backend (Terminal 1)
 cd backend && npm run dev
 
 # Frontend (Terminal 2)  
 cd frontend && npm start
-```
 
-Building for Production
-
-```bash
 # Build frontend
 cd frontend
 npm run build
-```
 
 # Contributing
 
